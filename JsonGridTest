@@ -1,1 +1,21 @@
+{
+  "meetings": [
+    {
+      "meeting_id_code": "1234",
+      "solutions": [
+        { "name": "EC2", "x": 1, "y": -1, "connections": ["S3", "RDS"] },
+        { "name": "S3", "x": 3, "y": 3, "connections": [] },
+        { "name": "RDS", "x": -3, "y": -3, "connections": ["EC2"] }
+      ]
+    },
+    {
+      "meeting_id_code": "4567",
+      "solutions": [
+        { "name": "EC2", "x": 5, "y": -3, "connections": ["S3", "RDS"] },
+        { "name": "S3", "x": 1, "y": 2, "connections": [] },
+        { "name": "RDS", "x": -2, "y": -1, "connections": ["EC2"] }
+      ]
+    }
+  ]
+}
 
