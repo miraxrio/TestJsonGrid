@@ -3,6 +3,22 @@
     {
       "meeting_id_code": "1234",
       "solutions": [
+        { "name": "EC2", "x": 1, "y": -1, "connections": ["S3_1", "RDS", "Lambda_1", "API Gateway"] },
+        { "name": "S3_1", "x": 3, "y": 3, "connections": ["EC2", "Lambda_2", "DynamoDB", "CloudFront"] },
+        { "name": "S3_2", "x": 5, "y": 1, "connections": ["Lambda_1", "DynamoDB", "CloudFront"] },
+        { "name": "S3_3", "x": -2, "y": -2, "connections": ["Lambda_3", "CloudFront"] },
+        { "name": "RDS", "x": -3, "y": -3, "connections": ["EC2", "S3_1", "DynamoDB"] },
+        { "name": "Lambda_1", "x": 0, "y": 0, "connections": ["S3_1", "EC2", "API Gateway", "CloudFront"] },
+        { "name": "Lambda_2", "x": 2, "y": 2, "connections": ["S3_1", "S3_2", "API Gateway", "CloudFront"] },
+        { "name": "Lambda_3", "x": -1, "y": -1, "connections": ["S3_3", "API Gateway", "CloudFront"] },
+        { "name": "API Gateway", "x": 2, "y": -2, "connections": ["EC2", "Lambda_1", "Lambda_2", "CloudFront"] },
+        { "name": "DynamoDB", "x": 4, "y": 4, "connections": ["EC2", "S3_1", "RDS"] },
+        { "name": "CloudFront", "x": -2, "y": 2, "connections": ["S3_1", "Lambda_1", "Lambda_2", "Lambda_3", "API Gateway"] }
+      ]
+    },
+     {
+      "meeting_id_code": "9999",
+      "solutions": [
         { "name": "EC2", "x": 1, "y": -1, "connections": ["S3", "RDS", "Lambda", "API Gateway"] },
         { "name": "S3", "x": 3, "y": 3, "connections": ["EC2", "Lambda", "DynamoDB", "CloudFront"] },
         { "name": "RDS", "x": -3, "y": -3, "connections": ["EC2", "S3", "DynamoDB"] },
