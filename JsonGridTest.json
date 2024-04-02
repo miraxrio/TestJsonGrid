@@ -11,7 +11,7 @@
         { "name": "Lambda_3", "x": 4, "y": 3, "connections": ["API Gateway_2", "DynamoDB_1"] },
         { "name": "DynamoDB_1", "x": 5, "y": 7, "connections": ["Lambda_3", "Lambda_4"] },
         { "name": "API Gateway_3", "x": 7, "y": 1, "connections": ["Lambda_4"] },
-        { "name": "Lambda_4", "x": 7, "y": 3, "connections": [["API Gateway_3", "DynamoDB_1"] },
+        { "name": "Lambda_4", "x": 7, "y": 3, "connections": ["API Gateway_3", "DynamoDB_1"] },
         { "name": "CloudFront_1", "x": 10, "y": 1, "connections": ["Lambda_5"] },
         { "name": "Lambda_5", "x": 10, "y": 3, "connections": ["CloudFront_1", "S3_2"] },
         { "name": "S3_2", "x": 10, "y": 6, "connections": ["Lambda_5", "Stepper_1"] },
