@@ -3,19 +3,24 @@
     {
       "meeting_id_code": "1234",
       "solutions": [
-        { "name": "EC2", "x": 1, "y": -1, "connections": ["S3", "RDS", "Lambda"] },
-        { "name": "S3", "x": 3, "y": 3, "connections": ["EC2", "Lambda"] },
-        { "name": "RDS", "x": -3, "y": -3, "connections": ["EC2", "S3"] },
-        { "name": "Lambda", "x": 0, "y": 0, "connections": ["S3", "EC2"] }
+        { "name": "EC2", "x": 1, "y": -1, "connections": ["S3", "RDS", "Lambda", "API Gateway"] },
+        { "name": "S3", "x": 3, "y": 3, "connections": ["EC2", "Lambda", "DynamoDB", "CloudFront"] },
+        { "name": "RDS", "x": -3, "y": -3, "connections": ["EC2", "S3", "DynamoDB"] },
+        { "name": "Lambda", "x": 0, "y": 0, "connections": ["S3", "EC2", "API Gateway", "CloudFront"] },
+        { "name": "API Gateway", "x": 2, "y": -2, "connections": ["EC2", "Lambda", "CloudFront"] },
+        { "name": "DynamoDB", "x": 4, "y": 4, "connections": ["EC2", "S3", "RDS"] },
+        { "name": "CloudFront", "x": -2, "y": 2, "connections": ["S3", "Lambda", "API Gateway"] }
       ]
     },
     {
       "meeting_id_code": "4567",
       "solutions": [
-        { "name": "EC2", "x": 5, "y": -3, "connections": ["S3", "RDS", "DynamoDB"] },
-        { "name": "S3", "x": 1, "y": 2, "connections": ["EC2", "RDS", "DynamoDB"] },
-        { "name": "RDS", "x": -2, "y": -1, "connections": ["EC2", "S3"] },
-        { "name": "DynamoDB", "x": -4, "y": 1, "connections": ["EC2", "S3"] }
+        { "name": "EC2", "x": 5, "y": -3, "connections": ["S3", "RDS", "DynamoDB", "Kinesis"] },
+        { "name": "S3", "x": 1, "y": 2, "connections": ["EC2", "RDS", "DynamoDB", "CloudFront"] },
+        { "name": "RDS", "x": -2, "y": -1, "connections": ["EC2", "S3", "DynamoDB"] },
+        { "name": "DynamoDB", "x": -4, "y": 1, "connections": ["EC2", "S3", "RDS", "Kinesis"] },
+        { "name": "Kinesis", "x": 3, "y": 5, "connections": ["EC2", "DynamoDB"] },
+        { "name": "CloudFront", "x": -1, "y": 1, "connections": ["S3", "API Gateway"] }
       ]
     }
   ]
