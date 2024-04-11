@@ -3,6 +3,37 @@
     {
       "meeting_id_code": "5678",
       "solutions": [
+        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1", "SQS_1"] },
+        { "name": "Lambda_1", "x": 1, "y": 3, "connections": ["S3_1", "API Gateway_1", "SNS_1"] },
+        { "name": "S3_1", "x": 1, "y": 6, "connections": ["Lambda_1", "Lambda_2", "Kinesis_1"] },
+        { "name": "Lambda_2", "x": 5, "y": 10, "connections": ["S3_1", "Stepper_1", "EC2_1"] },
+        { "name": "API Gateway_2", "x": 4, "y": 1, "connections": ["Lambda_3", "SQS_2"] },
+        { "name": "Lambda_3", "x": 4, "y": 3, "connections": ["API Gateway_2", "DynamoDB_1", "SNS_2"] },
+        { "name": "DynamoDB_1", "x": 5, "y": 7, "connections": ["Lambda_3", "Lambda_4", "Kinesis_2"] },
+        { "name": "API Gateway_3", "x": 7, "y": 1, "connections": ["Lambda_4", "SQS_3"] },
+        { "name": "Lambda_4", "x": 7, "y": 3, "connections": ["API Gateway_3", "DynamoDB_1", "SNS_3"] },
+        { "name": "CloudFront_1", "x": 10, "y": 1, "connections": ["Lambda_5", "SQS_4"] },
+        { "name": "Lambda_5", "x": 10, "y": 3, "connections": ["CloudFront_1", "S3_2", "SNS_4"] },
+        { "name": "S3_2", "x": 10, "y": 6, "connections": ["Lambda_5", "Stepper_1", "Kinesis_3"] },
+        { "name": "Stepper_1", "x": 10, "y": 8, "connections": ["S3_2", "Lambda_2", "EC2_2"] },
+        { "name": "SQS_1", "x": 2, "y": 8, "connections": ["Lambda_1"] },
+        { "name": "SNS_1", "x": 3, "y": 8, "connections": ["Lambda_1"] },
+        { "name": "Kinesis_1", "x": 4, "y": 8, "connections": ["S3_1"] },
+        { "name": "EC2_1", "x": 6, "y": 12, "connections": ["Lambda_2"] },
+        { "name": "SQS_2", "x": 3, "y": 4, "connections": ["Lambda_3"] },
+        { "name": "SNS_2", "x": 4, "y": 4, "connections": ["Lambda_3"] },
+        { "name": "Kinesis_2", "x": 5, "y": 4, "connections": ["DynamoDB_1"] },
+        { "name": "SQS_3", "x": 6, "y": 4, "connections": ["Lambda_4"] },
+        { "name": "SNS_3", "x": 7, "y": 4, "connections": ["Lambda_4"] },
+        { "name": "EC2_2", "x": 12, "y": 10, "connections": ["Stepper_1"] },
+        { "name": "SQS_4", "x": 9, "y": 4, "connections": ["Lambda_5"] },
+        { "name": "SNS_4", "x": 10, "y": 4, "connections": ["Lambda_5"] },
+        { "name": "Kinesis_3", "x": 11, "y": 4, "connections": ["S3_2"] }
+      ]
+    }
+    {
+      "meeting_id_code": "5678",
+      "solutions": [
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
         { "name": "Lambda_1", "x": 1, "y": 3, "connections": ["S3_1", "API Gateway_1"] },
         { "name": "S3_1", "x": 1, "y": 6, "connections": ["Lambda_1", "Lambda_2"] },
