@@ -1,7 +1,7 @@
 {
   "meetings": [
     {
-      "meeting_id_code": "5678",
+      "meeting_id_code": "1234",
       "solutions": [
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1", "SQS_1"] },
         { "name": "Lambda_1", "x": 1, "y": 3, "connections": ["S3_1", "API Gateway_1", "SNS_1"] },
