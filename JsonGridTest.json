@@ -30,7 +30,7 @@
         { "name": "SNS_4", "x": 10, "y": 4, "connections": ["Lambda_5"] },
         { "name": "Kinesis_3", "x": 11, "y": 4, "connections": ["S3_2"] }
       ]
-    }
+    },
     {
       "meeting_id_code": "5678",
       "solutions": [
