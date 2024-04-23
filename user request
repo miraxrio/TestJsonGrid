@@ -1,0 +1,20 @@
+{
+  "name": "Gabriel",
+  "role": "Guest",
+  "avatar_RPM": "https://models.readyplayer.me/65f0b60d35076e173ec96272.glb",
+  "avatar_Img": "https://api.readyplayer.me/v1/avatars/65f0b60d35076e173ec96272.png",
+  "logo_Img": "https://miraxr.io/_next/static/media/Logo.f0d53c35.png",
+  "status": "active",
+  "meetings": [
+    {
+      "meeting_id": "1234",
+      "environment": "world_clouds",
+      "date": "23/04/24"
+    },
+    {
+      "meeting_id": "5678",
+      "environment": "world_beach",
+      "date": "27/04/24"
+    }
+  ]
+}
