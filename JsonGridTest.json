@@ -1,11 +1,12 @@
 {
   "meetings": [
     {
-      "meeting_id_code": "3333",
+       "meeting_id_code": "3333",
       "solutions": [
-        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["S3_1"] },
-        { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["S3_1"] },
-        { "name": "S3_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2"] }
+        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda"] },
+        { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda"] },
+        { "name": "Lambda", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "S3_1"] },
+        { "name": "S3_1", "x": 6, "y": 5, "connections": ["Lambda"] }
       ]
     },
     {
