@@ -5,6 +5,15 @@
       "solutions": [
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
         { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "S3_1"] },
+        { "name": "S3_1", "x": 6, "y": 5, "connections": ["Lambda_1"] }
+      ]
+    },
+    {
+       "meeting_id_code": "3333s",
+      "solutions": [
+        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
         { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "WAF_1"] },
         { "name": "WAF_1", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
         { "name": "S3_1", "x": 6, "y": 5, "connections": ["WAF_1"] }
