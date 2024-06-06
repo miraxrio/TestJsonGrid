@@ -5,7 +5,7 @@
       "solutions": [
         { "name": "ResourceGroup_1", "x": 1, "y": 1, "connections": [] },
         { "name": "StaticSites_1", "x": 2, "y": 3, "connections": ["ResourceGroup_2"] },
-        { "name": "StaticSites_2", "x": 4 "y": 3, "connections": ["ResourceGroup_2"] },
+        { "name": "StaticSites_2", "x": 4, "y": 3, "connections": ["ResourceGroup_2"] },
         { "name":"ResourceGroup_2", "x": 6, "y": 6, "connections": ["StaticSites_1", "StaticSites_2"] }
       ]
     },
