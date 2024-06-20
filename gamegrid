@@ -1,0 +1,53 @@
+{
+  "meetings": [
+    {
+      "meeting_id_code": "1936",
+      "solutions": [
+        { "name": "ResourceGroup_1", "x": 1, "y": 1, "connections": [] },
+        { "name": "StaticSites_1", "x": 2, "y": 3, "connections": ["ResourceGroup_2"] },
+        { "name": "StaticSites_2", "x": 4, "y": 3, "connections": ["ResourceGroup_2"] },
+        { "name":"ResourceGroup_2", "x": 6, "y": 6, "connections": ["StaticSites_1", "StaticSites_2"] }
+      ]
+    },
+    {
+      "meeting_id_code": "3333",
+      "solutions": [
+        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "S3_1"] },
+        { "name": "S3_1", "x": 6, "y": 5, "connections": ["Lambda_1"] }
+      ]
+    },
+    {
+      "meeting_id_code": "3333WAF",
+      "solutions": [
+        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "WAF_1"] },
+        { "name": "WAF_1", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
+        { "name": "S3_1", "x": 6, "y": 5, "connections": ["WAF_1"] }
+      ]
+    },
+    {
+      "meeting_id_code": "3333CloudFront",
+      "solutions": [
+        { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
+        { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "CloudFront_1"] },
+        { "name": "CloudFront_1", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
+        { "name": "S3_1", "x": 6, "y": 5, "connections": ["CloudFront_1"] }
+      ]
+    },
+    {
+      "meeting_id_code": "777",
+      "solutions": [
+        { "name": "EC2", "x": 5, "y": -3, "connections": ["S3", "RDS", "DynamoDB", "Kinesis"] },
+        { "name": "S3", "x": 1, "y": 2, "connections": ["EC2", "RDS", "DynamoDB", "CloudFront"] },
+        { "name": "RDS", "x": -2, "y": -1, "connections": ["EC2", "S3", "DynamoDB"] },
+        { "name": "DynamoDB", "x": -4, "y": 1, "connections": ["EC2", "S3", "RDS", "Kinesis"] },
+        { "name": "Kinesis", "x": 3, "y": 5, "connections": ["EC2", "DynamoDB"] },
+        { "name": "CloudFront", "x": -1, "y": 1, "connections": ["S3", "API Gateway"] }
+      ]
+    }
+  ]
+}
