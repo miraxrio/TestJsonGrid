@@ -58,6 +58,6 @@
         { "name": "Lambda_2", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
         { "name": "S3_1", "x": 6, "y": 5, "connections": ["Lambda_2"] }
       ]
-    },
+    }
   ]
 }
