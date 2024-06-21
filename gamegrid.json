@@ -25,7 +25,7 @@
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
         { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
         { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "CloudFront_1"] },
-        { "name": "CloudFront_1", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
+        { "name": "CloudFront_1", "x": 6, "y": 7, "connections": ["Lambda_1", "S3_1"] },
         { "name": "S3_1", "x": 6, "y": 5, "connections": ["CloudFront_1"] }
       ]
     },
@@ -35,7 +35,7 @@
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
         { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
         { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "EC2_1"] },
-        { "name": "EC2_1", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
+        { "name": "EC2_1", "x": 5, "y": 8, "connections": ["Lambda_1", "S3_1"] },
         { "name": "S3_1", "x": 6, "y": 5, "connections": ["EC2_1"] }
       ]
     },
@@ -45,7 +45,7 @@
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
         { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
         { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "S3_2"] },
-        { "name": "S3_2", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
+        { "name": "S3_2", "x": 6, "y": 9, "connections": ["Lambda_1", "S3_1"] },
         { "name": "S3_1", "x": 6, "y": 5, "connections": ["S3_2"] }
       ]
     },
@@ -55,7 +55,7 @@
         { "name": "API Gateway_1", "x": 1, "y": 1, "connections": ["Lambda_1"] },
         { "name": "API Gateway_2", "x": 3, "y": 1, "connections": ["Lambda_1"] },
         { "name": "Lambda_1", "x": 2, "y": 3, "connections": ["API Gateway_1","API Gateway_2", "Lambda_2"] },
-        { "name": "Lambda_2", "x": 4, "y": 6, "connections": ["Lambda_1", "S3_1"] },
+        { "name": "Lambda_2", "x": 3, "y": 5, "connections": ["Lambda_1", "S3_1"] },
         { "name": "S3_1", "x": 6, "y": 5, "connections": ["Lambda_2"] }
       ]
     }
