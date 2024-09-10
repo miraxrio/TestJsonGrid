@@ -1,0 +1,28 @@
+{
+  "CardDetails": [
+    {
+      "idCard": "b102",
+      "CardName": "Firewall Guardian",
+      "ShortDescription": "Configure a robust firewall to block unauthorized access and mitigate external threats.",
+      "Cost": 2,
+      "Phase": ["Protect"],
+      "KeyphraseCounters": ["R123", "R153", "R121"],
+      "Details": {
+        "DoD_CMMC_Domain": "Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "b103",
+      "CardName": "Network Defender",
+      "ShortDescription": "Deploy network defenses to monitor and block suspicious activities.",
+      "Cost": 3,
+      "Phase": ["Detect"],
+      "KeyphraseCounters": ["R126", "R159", "R140"],
+      "Details": {
+        "DoD_CMMC_Domain": "Incident Response (IR)",
+        "Explanation": "Network defenders monitor traffic to detect and respond to suspicious activities in real-time, preventing data breaches."
+      }
+    }
+  ]
+}
