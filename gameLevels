@@ -1,0 +1,16 @@
+{
+  "Levels": [
+    {
+      "Level": 1,
+      "Difficulty": "Novice",
+      "BlueCards": ["b102", "b107", "b105", "b109", "b112"],
+      "RedCards": ["r106", "r120", "r132", "r125", "r123"]
+    },
+    {
+      "Level": 2,
+      "Difficulty": "Intermediate",
+      "BlueCards": ["b202", "b207", "b205", "b209", "b212"],
+      "RedCards": ["r206", "r220", "r232", "r225", "r223"]
+    }
+  ]
+}
