@@ -3,7 +3,7 @@
     {
       "Level": 1,
       "Difficulty": "Novice",
-      "BlueCards": ["b102", "b107", "b105", "b109", "b112"],
+      "BlueCards": ["nb101", "nb102", "nb105", "nb109", "nb112"],
       "RedCards": ["r106", "r120", "r132", "r125", "r123"]
     },
     {
