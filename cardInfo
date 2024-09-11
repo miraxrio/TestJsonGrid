@@ -1,24 +1,26 @@
 {
   "CardDetails": [
     {
-      "idCard": "b102",
-      "CardName": "Firewall Guardian",
-      "ShortDescription": "Configure a robust firewall to block unauthorized access and mitigate external threats.",
-      "Cost": 2,
+      "idCard": "nb101",
+      "CardName": "Access Control",
+      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
+      "Cost": AC,
       "Phase": ["Protect"],
-      "KeyphraseCounters": ["R123", "R153", "R121"],
+      "KeyphraseCounters": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/ETU9EBwT0hxPmkKYIwADpsgBn_3IbYoKmPwCIByK1VyfyQ?e=jlsx2P&download=1",
       "Details": {
         "DoD_CMMC_Domain": "Access Control (AC)",
         "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
       }
     },
     {
-      "idCard": "b103",
-      "CardName": "Network Defender",
+      "idCard": "nb102",
+      "CardName": "Asset Management",
       "ShortDescription": "Deploy network defenses to monitor and block suspicious activities.",
-      "Cost": 3,
-      "Phase": ["Detect"],
-      "KeyphraseCounters": ["R126", "R159", "R140"],
+      "Cost": AM,
+      "Phase": ["Protect"],
+      "KeyphraseCounters": ["r120", "r111"],
+      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/EXGVFsJ1AeFJhT8tE8JZQqcBZqgfWUqN1tXXLdRFHHLGKg?e=fsBNbZ&download=1",
       "Details": {
         "DoD_CMMC_Domain": "Incident Response (IR)",
         "Explanation": "Network defenders monitor traffic to detect and respond to suspicious activities in real-time, preventing data breaches."
