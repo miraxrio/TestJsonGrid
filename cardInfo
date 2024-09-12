@@ -20,7 +20,7 @@
       "Cost": "AM",
       "Phase": ["Protect"],
       "Keyphrase": ["r120", "r111"],
-      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/EXGVFsJ1AeFJhT8tE8JZQqcBZqgfWUqN1tXXLdRFHHLGKg?e=fsBNbZ&download=1",
+      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/ERPP7mTzkbtLoa-TxejLo2wBnmdKqMO9aTPIl8amcGtWWQ?e=FAJfJu&download=1",
       "Details": {
         "Mitigation": " DoD_CMMC_Domain - Incident Response (IR)",
         "Explanation": "Network defenders monitor traffic to detect and respond to suspicious activities in real-time, preventing data breaches."
