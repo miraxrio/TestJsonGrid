@@ -59,10 +59,22 @@
       "Cost": "AC",
       "Phase": ["Protect"],
       "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
-      "imageURL": "",
+      "imageURL": "---",
       "Details": {
         "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
         "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }, 
+      {
+      "idCard": "r101",
+      "CardName": "Port Scan",
+      "ShortDescription": "The attacker is looking for open ports that may be vulnerable to exploitation.",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "FPort scanning identifies open ports that may be vulnerable to exploitation. Tools like Nmap are commonly used for this purpose."
       }
     }
   ]
