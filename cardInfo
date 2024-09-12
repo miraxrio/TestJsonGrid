@@ -53,7 +53,7 @@
       }
     },
     {
-      "idCard": "r106",
+      "idCard": "nb106",
       "CardName": "Identification & Authentication",
       "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
       "Cost": "AC",
