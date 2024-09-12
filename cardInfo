@@ -27,39 +27,39 @@
       }
     },
     {
-      "idCard": "nb103",
-      "CardName": "Access Control",
-      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
-      "Cost": "AC",
-      "Phase": ["Protect"],
-      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
-      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/ETU9EBwT0hxPmkKYIwADpsgBn_3IbYoKmPwCIByK1VyfyQ?e=jlsx2P&download=1",
-      "Details": {
-        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
-        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
-      }
-    },
-    {
       "idCard": "nb104",
-      "CardName": "Access Control",
-      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
-      "Cost": "AC",
+      "CardName": "Awareness & Training",
+      "ShortDescription": "Provides cybersecurity education and training to ensure that employees understand security risks and best practices.",
+      "Cost": "AT",
       "Phase": ["Protect"],
-      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
-      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/ETU9EBwT0hxPmkKYIwADpsgBn_3IbYoKmPwCIByK1VyfyQ?e=jlsx2P&download=1",
+      "Keyphrase": ["r103", "r108", "r110", "r109"],
+      "imageURL": "---",
       "Details": {
         "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
         "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
       }
     },
     {
-      "idCard": "r107",
-      "CardName": "Access Control",
-      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
+      "idCard": "nb105",
+      "CardName": "Configuration Management",
+      "ShortDescription": "Maintain secure configurations for systems, networks, and software, and track changes.",
+      "Cost": "CM",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r111", "r113", "r104", "120", "115"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "r106",
+      "CardName": "Identification & Authentication",
+      "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
       "Cost": "AC",
       "Phase": ["Protect"],
       "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
-      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/ETU9EBwT0hxPmkKYIwADpsgBn_3IbYoKmPwCIByK1VyfyQ?e=jlsx2P&download=1",
+      "imageURL": "",
       "Details": {
         "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
         "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
