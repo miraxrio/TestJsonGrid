@@ -24,6 +24,18 @@
       "Details": {
         "Mitigation": " DoD_CMMC_Domain - Incident Response (IR)",
         "Explanation": "Network defenders monitor traffic to detect and respond to suspicious activities in real-time, preventing data breaches."
+      },
+    {
+      "idCard": "nb103",
+      "CardName": "Access Control",
+      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
+      "Cost": "AC",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "https://runningbulltech-my.sharepoint.com/:i:/p/joe/ETU9EBwT0hxPmkKYIwADpsgBn_3IbYoKmPwCIByK1VyfyQ?e=jlsx2P&download=1",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
       }
     }
   ]
