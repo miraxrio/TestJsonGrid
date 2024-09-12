@@ -63,8 +63,9 @@
       "Details": {
         "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
         "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
-      }, 
-      {
+      }
+    }, 
+    {
       "idCard": "r101",
       "CardName": "Port Scan",
       "ShortDescription": "The attacker is looking for open ports that may be vulnerable to exploitation.",
