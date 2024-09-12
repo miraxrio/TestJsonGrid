@@ -77,6 +77,19 @@
         "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
         "Explanation": "FPort scanning identifies open ports that may be vulnerable to exploitation. Tools like Nmap are commonly used for this purpose."
       }
+    },
+    {
+      "idCard": "r102",
+      "CardName": "SQL Injection",
+      "ShortDescription": "The attacker injects malicious SQL queries to exploit vulnerabilities in web applications.",
+      "Cost": "Critical",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "SQL Injection attacks allow attackers to manipulate databases, potentially gaining unauthorized access to sensitive data."
+      }
     }
   ]
 }
