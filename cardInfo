@@ -80,7 +80,7 @@
     }, 
     {
       "idCard": "b102",
-      "CardName": "---",
+      "CardName": "Firewall Guardian",
       "ShortDescription": "Configure a robust firewall to block unauthorized access and mitigate external threats",
       "Cost": "3",
       "Phase": ["Protect"],
