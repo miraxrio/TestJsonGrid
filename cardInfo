@@ -422,7 +422,7 @@
       "ShortDescription": "Utilize a vulnerability scanner to identify weaknesses in your systems and prioritize remediation efforts.",
       "Cost": "1",
       "Phase": ["Protect", "Detect"],
-      "Keyphrase": ["--"],
+      "Keyphrase": ["r113", "r117", "r110"],
       "imageURL": "---",
       "Details": {
         "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
