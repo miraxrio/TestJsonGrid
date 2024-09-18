@@ -69,7 +69,7 @@
       "idCard": "b101",
       "CardName": "----",
       "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
-      "Cost": "--",
+      "Cost": "3",
       "Phase": ["Protect"],
       "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
       "imageURL": "---",
@@ -496,15 +496,15 @@
     },
     {
       "idCard": "r105",
-      "CardName": "-",
-      "ShortDescription": "-",
-      "Cost": "Low",
-      "Phase": ["Recon"],
+      "CardName": "Man-in-the-Middle (MitM) Attack",
+      "ShortDescription": "The attacker intercepts communications between two parties to steal or alter information.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
       "Keyphrase": ["-"],
       "imageURL": "---",
       "Details": {
         "Mitigation": "-",
-        "Explanation": "-"
+        "Explanation": "MitM attacks are used to eavesdrop on sensitive communications, steal data, or inject malicious content."
       }
     },
     {
