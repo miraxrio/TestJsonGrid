@@ -823,7 +823,7 @@
       "idCard": "sr101",
       "CardName": "Amazon EC2",
       "ShortDescription": "Security Groups should only allow unrestricted incoming from athorized ports",
-      "Cost": "Low",
+      "Cost": "High",
       "Phase": ["Recon"],
       "Keyphrase": ["-"],
       "imageURL": "---",
