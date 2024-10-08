@@ -2,7 +2,7 @@
   "Levels": [
     {
       "Level": 0,
-      "Difficulty": "Novice",
+      "Difficulty": "Skilled",
       "BlueCards": ["sb101", "sb102", "sb103", "sb104"],
       "RedCards": ["sr101"]
     },
