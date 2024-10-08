@@ -765,6 +765,70 @@
       "Details": {
         "Mitigation": "-",
         "Explanation": "-"
+      },
+      {
+      "idCard": "sb101",
+      "CardName": "Gilded Invitation",
+      "ShortDescription": "This whitelist says you're not allowed in",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "sb102",
+      "CardName": "Lock it down",
+      "ShortDescription": "Your Password Does not meet the requirements",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "sb103",
+      "CardName": "Port Authority",
+      "ShortDescription": "No one goes though my ports pal",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["sk101"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "sb104",
+      "CardName": "MFA checkpiont",
+      "ShortDescription": "Licence and registration please",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "sr101",
+      "CardName": "Amazon EC2",
+      "ShortDescription": "Security Groups should only allow unrestricted incoming from athorized ports",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
       }
     }
   ]
