@@ -765,8 +765,9 @@
       "Details": {
         "Mitigation": "-",
         "Explanation": "-"
-      },
-      {
+      }
+    },
+    {
       "idCard": "sb101",
       "CardName": "Gilded Invitation",
       "ShortDescription": "This whitelist says you're not allowed in",
