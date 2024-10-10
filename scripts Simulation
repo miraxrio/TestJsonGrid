@@ -1,8 +1,8 @@
 {
     "webScripts": [
         {
-            "Level": "1",
-            "CardId": "SR001",
+            "Level": "0",
+            "CardId": "SB0001",
             "WebScript": "# Initialize boto3 clients\nsecurityhub = boto3.client('securityhub')\ns3 = boto3.client('s3')\n\ndef get_findings(product_arn, severity_label=\"MEDIUM\"):\n    \"\"\"Get Security Hub findings for a specific product with the given severity.\"\"\"\n    response = securityhub.get_findings(\n        Filters={\n            'ProductArn': [{'Value': product_arn, 'Comparison': 'EQUALS'}],\n            'SeverityLabel': [{'Value': severity_label, 'Comparison': 'EQUALS'}],\n            'ComplianceStatus': [{'Value': 'FAILED', 'Comparison': 'EQUALS'}]\n        }\n    )\n    return response['Findings']\n\ndef remediate_s3_bucket(bucket_name):\n    \"\"\"Enable default encryption on the S3 bucket.\"\"\"\n    try:\n        s3.put_bucket_encryption(\n            Bucket=bucket_name,\n            ServerSideEncryptionConfiguration={\n                'Rules': [\n                    {\n                        'ApplyServerSideEncryptionByDefault': {\n                            'SSEAlgorithm': 'AES256'\n                        }\n                    }\n                ]\n            }\n        )\n        print(f\"Encryption enabled for bucket: {bucket_name}\")\n    except Exception as e:\n        print(f\"Failed to remediate bucket {bucket_name}: {str(e)}\")\n\ndef main():\n    # Security Hub product ARN (you can find it in the Security Hub console)\n    product_arn = 'arn:aws:securityhub:us-east-1::product/aws/securityhub'\n    \n    # Get the findings for S3 bucket encryption\n    findings = get_findings(product_arn, severity_label=\"MEDIUM\")\n    \n    for finding in findings:\n        for resource in finding['Resources']:\n            if resource['Type'] == 'AwsS3Bucket':\n                bucket_name = resource['Id'].split(':')[-1]\n                print(f\"Remediating bucket: {bucket_name}\")\n                remediate_s3_bucket(bucket_name)\n\nif __name__ == \"__main__\":\n    main()"
         }
     ]
