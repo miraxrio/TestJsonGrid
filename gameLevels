@@ -3,7 +3,7 @@
     {
       "Level": 0,
       "Difficulty": "Skilled",
-      "BlueCards": ["sb101", "sb102", "sb103", "sb104"],
+      "BlueCards": ["sb101", "sb102", "sb103", "sb104","sb101", "sb102", "sb103", "sb104","sb101", "sb102", "sb103", "sb104","sb101", "sb102", "sb103", "sb104"],
       "RedCards": ["sr101"]
     },
     {
