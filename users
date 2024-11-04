@@ -34,6 +34,11 @@
       "userId": "007",
       "userName": "Guest",
       "avatarLink": "https://models.readyplayer.me/65f0b60d35076e173ec96272.glb"
+    },
+    {
+      "userId": "008",
+      "userName": "Christian",
+      "avatarLink": "https://models.readyplayer.me/67292078549e1b88f3a81ba2.glb"
     }
   ]
 }
