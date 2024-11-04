@@ -1,22 +1,37 @@
 {
   "users": [
     {
-      "userId": "001",
-      "userName": "Joe",
+      "userId": "000",
+      "userName": "Gabriel",
       "avatarLink": "https://models.readyplayer.me/65f0b60d35076e173ec96272.glb"
     },
     {
-      "userId": "002",
-      "userName": "Gabriel",
-      "avatarLink": "https://models.readyplayer.me/65f1d2e4fc07927087304f55.glb"
-    },
-    {
-      "userId": "003",
-      "userName": "Christian",
+      "userId": "001",
+      "userName": "Joe",
       "avatarLink": "https://models.readyplayer.me/65f1d3752cebbb1755907a89.glb"
     },
     {
+      "userId": "002",
+      "userName": "Brian",
+      "avatarLink": "https://models.readyplayer.me/67216299cce833099caeac57.glb"
+    },
+    {
+      "userId": "003",
+      "userName": "Daniel",
+      "avatarLink": "https://models.readyplayer.me/67216345b14051a6c2827e44.glb"
+    },
+    {
+      "userId": "004",
+      "userName": "Charles",
+      "avatarLink": "https://models.readyplayer.me/672163e0273d54c60bc101f1.glb"
+    },
+    {
       "userId": "005",
+      "userName": "Kevin",
+      "avatarLink": "https://models.readyplayer.me/67291d352081a96808b115bb.glb"
+    },
+    {
+      "userId": "007",
       "userName": "Guest",
       "avatarLink": "https://models.readyplayer.me/65f0b60d35076e173ec96272.glb"
     }
