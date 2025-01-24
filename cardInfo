@@ -789,8 +789,8 @@
       "Keyphrase": ["-"],
       "imageURL": "---",
       "Details": {
-        "Mitigation": "If you cannot safely evacuate the building or area, you must find a secure location to hide and begin lockdown procedures...",
-        "Explanation": "-"
+        "Mitigation": "If you cannot safely evacuate the building or area",
+        "Explanation": "If you cannot safely evacuate the building or area, you must find a secure location to hide and begin lockdown procedures..."
       }
     },
     {
@@ -802,8 +802,8 @@
       "Keyphrase": ["sk101"],
       "imageURL": "---",
       "Details": {
-        "Mitigation": "Guidelines outlines best practices between Customs and Port Authorities from advanced, ...",
-        "Explanation": "-"
+        "Mitigation": "Guidelines outlines best practices",
+        "Explanation": "Guidelines outlines best practices between Customs and Port Authorities from advanced, ..."
       }
     },
     {
@@ -815,8 +815,8 @@
       "Keyphrase": ["-"],
       "imageURL": "---",
       "Details": {
-        "Mitigation": "2FA (Factor Authentication) for RA (Remote Access) users is supported in locally managed SMB appliances, either directly on the Quantum Spark appliance or with ...",
-        "Explanation": "-"
+        "Mitigation": "2FA (Factor Authentication) for RA (Remote Access)",
+        "Explanation": "2FA (Factor Authentication) for RA (Remote Access) users is supported in locally managed SMB appliances, either directly on the Quantum Spark appliance or with ..."
       }
     },
     {
