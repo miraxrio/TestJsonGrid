@@ -1,0 +1,1044 @@
+{
+  "CardDetails": [
+    {
+      "idCard": "nb101",
+      "CardName": "Access Control",
+      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
+      "Cost": "AC",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "nb102",
+      "CardName": "Asset Management",
+      "ShortDescription": "Deploy network defenses to monitor and block suspicious activities.",
+      "Cost": "AM",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r120", "r111"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": " DoD_CMMC_Domain - Incident Response (IR)",
+        "Explanation": "Network defenders monitor traffic to detect and respond to suspicious activities in real-time, preventing data breaches."
+      }
+    },
+    {
+      "idCard": "nb104",
+      "CardName": "Awareness & Training",
+      "ShortDescription": "Provides cybersecurity education and training to ensure that employees understand security risks and best practices.",
+      "Cost": "AT",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r103", "r108", "r110", "r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "nb105",
+      "CardName": "Configuration Management",
+      "ShortDescription": "Maintain secure configurations for systems, networks, and software, and track changes.",
+      "Cost": "CM",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r111", "r113", "r104", "120", "115"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "nb106",
+      "CardName": "Identification & Authentication",
+      "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
+      "Cost": "AC",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "b101",
+      "CardName": "VPN Cloak",
+      "ShortDescription": "Deploy a VPN Tunnel for protection against MitM, session hijacking, and phishing attempts for your users.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r105", "r107", "r112", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "VPNs ensure that data transmitted over unsecured networks is encrypted and secure, protecting against unauthorized access and data breaches."
+      }
+    },
+    {
+      "idCard": "b102",
+      "CardName": "Firewall Guardian",
+      "ShortDescription": "Configure a robust firewall to block unauthorized access and mitigate external threats.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r105", "r106", "r107", "r110", "r112", "r115", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "b102",
+      "CardName": "Firewall Guardian Rule - Port Block",
+      "ShortDescription": "Configure a firewall rule for specific ports to block.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r107", "r110", "r112", "r115", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "b102",
+      "CardName": "Firewall Guardian Rule - Protocol Rule",
+      "ShortDescription": "Configure a firewall rule for specific protocols to block.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r107", "r110", "r112", "r115", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "b103",
+      "CardName": "Multi-Factor Authentication (MFA)",
+      "ShortDescription": "Require multiple forms of authentication to secure user access to critical systems.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r112", "r115", "r119", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Identification and Authentication (IA)",
+        "Explanation": "MFA adds an additional layer of security by requiring multiple forms of verification before granting access, reducing the risk of compromised credentials."
+      }
+    },
+    {
+      "idCard": "b104",
+      "CardName": "Intrusion Detection System (IDS) Watchtower",
+      "ShortDescription": "Deploy an IDS to monitor and alert on suspicious network activities.",
+      "Cost": "4",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106", "r107", "r110", "r112", "r114", "r118", "r121"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Security Continuous Monitoring (SC)",
+        "Explanation": "IDSs detect potential security breaches in real-time by analyzing network traffic for malicious activity, allowing for timely incident response."
+      }
+    },
+    {
+      "idCard": "b105",
+      "CardName": "Data Encryption Vault",
+      "ShortDescription": "Encrypt sensitive data at rest and in transit to protect against unauthorized access.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r105", "r110", "r112", "r114", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Encryption ensures that even if data is intercepted, it cannot be read or used by unauthorized individuals."
+      }
+    },
+    {
+      "idCard": "b106",
+      "CardName": "Patch Management Wizard",
+      "ShortDescription": "Regularly apply patches and updates to close known vulnerabilities in software.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r108", "r110", "r114", "r118", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Maintenance (MA)",
+        "Explanation": "Keeping software up to date with the latest patches helps prevent attackers from exploiting known vulnerabilities."
+      }
+    },
+    {
+      "idCard": "b107",
+      "CardName": "User Access Control List (ACL) Enforcer",
+      "ShortDescription": "Implement ACLs to restrict access based on user roles and responsibilities.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106", "r109", "r110", "r115", "r119", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "ACLs limit access to information systems and data, ensuring that only authorized users can access specific resources."
+      }
+    },
+    {
+      "idCard": "b108",
+      "CardName": "Security Awareness Training",
+      "ShortDescription": "Educate employees on cybersecurity best practices and threat recognition.",
+      "Cost": "1",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r112", "r115", "r119", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Awareness and Training (AT)",
+        "Explanation": "Regular training programs increase employee awareness of cybersecurity threats, reducing the likelihood of successful social engineering attacks."
+      }
+    },
+    {
+      "idCard": "b109",
+      "CardName": "Endpoint Protection Suite",
+      "ShortDescription": "Deploy antivirus and anti-malware solutions to safeguard endpoints from malicious software.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r108", "r110", "r114", "r118"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Endpoint protection software detects and removes malware, protecting individual devices and the broader network from compromise."
+      }
+    },
+    {
+      "idCard": "b110",
+      "CardName": "Secure Configuration Baseline",
+      "ShortDescription": "Establish and maintain secure configurations for all systems and devices.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106", "r109", "r110", "r119", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "Secure configurations reduce the attack surface by eliminating unnecessary services, ports, and settings that could be exploited."
+      }
+    },
+    {
+      "idCard": "b111",
+      "CardName": "Network Segmentation Barrier",
+      "ShortDescription": "Isolate critical systems from less secure parts of the network through segmentation.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106", "r110", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Network segmentation limits the spread of malware and reduces the potential impact of a breach by isolating critical assets."
+      }
+    },
+    {
+      "idCard": "b112",
+      "CardName": "Incident Response Team",
+      "ShortDescription": "Develop and deploy an incident response plan to quickly address security breaches.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106", "r110", "r118", "r121"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "A well-defined incident response plan ensures that your organization can respond quickly and effectively to security incidents, minimizing damage and recovery time."
+      }
+    },
+    {
+      "idCard": "b113",
+      "CardName": "Secure Remote Access",
+      "ShortDescription": "Establish secure methods for remote access to the network.",
+      "Cost": "4",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r105", "r112", "r115", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "Secure remote access methods, such as VPNs and secure tunneling, protect against unauthorized access when connecting to the network from external locations."
+      }
+    },
+    {
+      "idCard": "b114",
+      "CardName": "Privileged Access Management (PAM)",
+      "ShortDescription": "Control and monitor the use of privileged accounts to prevent unauthorized actions.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r119", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "PAM solutions help manage, monitor, and secure privileged accounts, reducing the risk of insider threats and external breaches."
+      }
+    },
+    {
+      "idCard": "b115",
+      "CardName": "Secure Email Gateway",
+      "ShortDescription": "Protect email communications from phishing and malware attacks.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r112", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Secure email gateways filter incoming and outgoing emails for malicious content, preventing phishing and malware attacks."
+      }
+    },
+    {
+      "idCard": "b116",
+      "CardName": "DDoS Mitigator",
+      "ShortDescription": "Deploy defenses against Distributed Denial of Service (DDoS) attacks to maintain availability.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "DDoS mitigation strategies protect against overwhelming traffic attacks that could disrupt service availability."
+      }
+    },
+    {
+      "idCard": "b117",
+      "CardName": "Secure Software Development Lifecycle (SDLC)",
+      "ShortDescription": "Integrate security practices throughout the software development process.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r118", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Information Integrity (SI)",
+        "Explanation": "A secure SDLC ensures that security is built into applications from the ground up, reducing vulnerabilities in deployed software."
+      }
+    },
+    {
+      "idCard": "b118",
+      "CardName": "Zero Day Hunter",
+      "ShortDescription": "Subscribe to threat intelligence feeds to stay informed about emerging threats.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r118", "r121"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
+        "Explanation": "Threat intelligence feeds provide real-time updates on new threats, allowing for proactive defense measures."
+      }
+    },
+    {
+      "idCard": "b119",
+      "CardName": "Security Information and Event Management (SIEM)",
+      "ShortDescription": "Implement a SIEM system to centralize and analyze security data for better threat detection.",
+      "Cost": "3",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r110", "r114", "r118"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Security Continuous Monitoring (SC)",
+        "Explanation": "SIEM systems collect and correlate security data from various sources, helping identify potential threats more quickly."
+      }
+    },
+    {
+      "idCard": "b120",
+      "CardName": "Physical Security Controls",
+      "ShortDescription": "Implement physical security measures to protect against unauthorized access to facilities and systems.",
+      "Cost": "1",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r119", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Physical Protection (PP)",
+        "Explanation": "Physical security controls, such as access badges and surveillance, protect against unauthorized physical access to critical infrastructure."
+      }
+    },
+    {
+      "idCard": "b122",
+      "CardName": "Event Management System",
+      "ShortDescription": "Implement an Event Management System to monitor and log security-related events across your network.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r110", "r118", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Security Continuous Monitoring (SC)",
+        "Explanation": "An Event Management System collects, analyzes, and correlates security events from various sources, facilitating the identification and response to potential incidents."
+      }
+    },
+    {
+      "idCard": "b123",
+      "CardName": "Honey Pot Decoy",
+      "ShortDescription": "Deploy a honey pot to lure attackers away from critical systems and gather intelligence on malicious activities.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r108", "r110", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Security Continuous Monitoring (SC)",
+        "Explanation": "Honey pots act as decoys, attracting attackers and allowing organizations to monitor their tactics without risking actual assets, enhancing threat intelligence."
+      }
+    },
+    {
+      "idCard": "b124",
+      "CardName": "Vulnerability Intelligence",
+      "ShortDescription": "Continuously monitor for vulnerabilities within your systems and prioritize remediation efforts based on risk.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r110", "r114", "r118"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
+        "Explanation": "Vulnerability intelligence involves identifying and assessing vulnerabilities within your systems, enabling timely remediation and reducing the risk of exploitation."
+      }
+    },
+    {
+      "idCard": "b125",
+      "CardName": "Antivirus Shield",
+      "ShortDescription": "Protect your network from malicious software with a robust antivirus solution that detects and neutralizes threats.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r110"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Antivirus solutions are essential for detecting and removing malware, protecting individual devices and the broader network from compromise, ensuring system integrity."
+      }
+    },
+    {
+      "idCard": "b126",
+      "CardName": "Threat Detector",
+      "ShortDescription": "Deploy advanced threat detection systems to identify and respond to potential security incidents in real-time.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r110", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Security Continuous Monitoring (SC)",
+        "Explanation": "Threat detection systems monitor network traffic and system activities to identify potential threats, allowing for immediate response to mitigate the impact of incidents."
+      }
+    },
+    {
+      "idCard": "b127",
+      "CardName": "Threat Intelligence",
+      "ShortDescription": "Integrate threat intelligence feeds to stay updated on emerging threats and exploitation patterns / methodologies.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r118", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
+        "Explanation": "Threat intelligence provides timely information about emerging threats, enabling proactive defense strategies and informed decision-making to protect against new risks."
+      }
+    },
+    {
+      "idCard": "b128",
+      "CardName": "Vulnerability Scanner",
+      "ShortDescription": "Utilize a vulnerability scanner to identify weaknesses in your systems and prioritize remediation efforts.",
+      "Cost": "1",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r108", "r110", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
+        "Explanation": "Vulnerability scanners help detect potential security flaws in systems, enabling organizations to address vulnerabilities before they can be exploited by attackers."
+      }
+    },
+    {
+      "idCard": "b129",
+      "CardName": "Backup Restorer",
+      "ShortDescription": "Implement a robust backup and recovery solution to ensure data integrity and availability after an incident.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r110", "r114", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Recovery Planning (RP)",
+        "Explanation": "Backup and recovery solutions protect against data loss by ensuring that critical information can be restored quickly and reliably after an incident."
+      }
+    },
+    {
+      "idCard": "b130",
+      "CardName": "Data Loss Prevention",
+      "ShortDescription": "Deploy Data Loss Prevention (DLP) technologies to prevent unauthorized access, sharing, or leakage of sensitive data.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r110", "r114", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "DLP technologies monitor and control the movement of sensitive data to prevent unauthorized access, sharing, or exfiltration, ensuring data integrity and compliance."
+      }
+    },
+    {
+      "idCard": "b131",
+      "CardName": "Hardware Refresh",
+      "ShortDescription": "Decommission and replace legacy systems that no longer receive security updates to protect against new vulnerabilities.",
+      "Cost": "4",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r118", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "Replacing outdated legacy systems ensures that your organization uses supported technologies, reducing the risk of exploitation through unpatched vulnerabilities."
+      }
+    },
+    {
+      "idCard": "b132",
+      "CardName": "Change Control Process",
+      "ShortDescription": "Implement a robust change control process to track, review, and approve changes to system configurations.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r108", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "A formal change control process ensures that all changes to system configurations are reviewed and documented, reducing the risk of vulnerabilities through unauthorized changes."
+      }
+    },
+    {
+      "idCard": "b133",
+      "CardName": "Least Functionality Configuration",
+      "ShortDescription": "Configure systems to provide only the essential capabilities needed for operations, reducing the attack surface.",
+      "Cost": "4",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "Applying the principle of least functionality minimizes the potential for exploitation by reducing the number of features and services running on systems."
+      }
+    },
+    {
+      "idCard": "b133",
+      "CardName": "Least Functionality Configuration Custom Rule CMD",
+      "ShortDescription": "Write a CMD line script to disable unnecessary services on a host machine.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "Applying the principle of least functionality minimizes the potential for exploitation by reducing the number of features and services running on systems."
+      }
+    },
+    {
+      "idCard": "b134",
+      "CardName": "Software Whitelisting",
+      "ShortDescription": "Implement a deny-by-default policy that only allows approved software to run on your systems.",
+      "Cost": "3",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r109", "r112"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "Software whitelisting ensures that only authorized and verified software can be executed, reducing the risk of malware and unauthorized applications compromising the system."
+      }
+    },
+    {
+      "idCard": "b135",
+      "CardName": "User-Installed Software Control",
+      "ShortDescription": "Monitor and control software installed by users to prevent unauthorized or insecure applications from being used.",
+      "Cost": "1",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r106", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": "Controlling user-installed software helps maintain system security by ensuring that only approved and secure applications are used, reducing the risk of introducing vulnerabilities."
+      }
+    },
+    {
+      "idCard": "b136",
+      "CardName": "Automated Configuration Monitoring",
+      "ShortDescription": "Implement tools to continuously monitor system configurations for unauthorized changes and deviations from the baseline.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r110"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Configuration Management (CM)",
+        "Explanation": ""
+      }
+    },
+    {
+      "idCard": "b137",
+      "CardName": "Multi-Factor Authentication (MFA) Enforcement",
+      "ShortDescription": "Require the use of multi-factor authentication (MFA) for all users to strengthen access controls.",
+      "Cost": "3",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r112", "r115"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Identification and Authentication (IA)",
+        "Explanation": "MFA adds an additional layer of security by requiring users to provide multiple forms of verification before accessing sensitive systems, reducing the risk of credential compromise."
+      }
+    },
+    {
+      "idCard": "b138",
+      "CardName": "User Account Verification",
+      "ShortDescription": "Implement stringent identity verification processes for creating and managing user accounts.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r115", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Identification and Authentication (IA)",
+        "Explanation": "Verifying the identity of users during account creation and management ensures that only authorized individuals have access to systems, reducing the risk of unauthorized access."
+      }
+    },
+    {
+      "idCard": "b139",
+      "CardName": "Privileged Account Management",
+      "ShortDescription": "Implement strong authentication and monitoring controls for privileged accounts to prevent misuse.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Identification and Authentication (IA)",
+        "Explanation": "Privileged accounts have elevated access rights, making them prime targets for attackers. Strong authentication and monitoring ensure these accounts are used appropriately and securely."
+      }
+    },
+    {
+      "idCard": "b140",
+      "CardName": "Biometric Authentication",
+      "ShortDescription": "Deploy biometric authentication methods, such as fingerprint or facial recognition, for high-security areas.",
+      "Cost": "4",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Identification and Authentication (IA)",
+        "Explanation": "Biometric authentication provides a high level of security by using unique physical characteristics to verify user identities, reducing the risk of unauthorized access to critical systems."
+      }
+    },
+    {
+      "idCard": "b141",
+      "CardName": "Session Timeout Enforcement",
+      "ShortDescription": "Automatically log out users after a period of inactivity to prevent unauthorized access to unattended sessions.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r107"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Identification and Authentication (IA)",
+        "Explanation": "Session timeouts prevent unauthorized access by ensuring that inactive user sessions are automatically terminated, reducing the risk of hijacking unattended systems."
+      }
+    },
+    {
+      "idCard": "b142",
+      "CardName": "Incident Response Plan",
+      "ShortDescription": "Develop and maintain a comprehensive incident response plan to address potential security breaches effectively.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r110", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "An incident response plan outlines the procedures to follow during a security incident, ensuring that the organization can respond quickly and effectively to mitigate damage."
+      }
+    },
+    {
+      "idCard": "b143",
+      "CardName": "Incident Reporting Protocol",
+      "ShortDescription": "Establish clear protocols for reporting and documenting security incidents to ensure timely and accurate communication.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "Clear incident reporting protocols ensure that security incidents are communicated promptly and accurately to the appropriate stakeholders, enabling swift action."
+      }
+    },
+    {
+      "idCard": "b144",
+      "CardName": "Incident Response Team",
+      "ShortDescription": "Assemble and train a dedicated incident response team to handle and mitigate security incidents.",
+      "Cost": "3",
+      "Phase": ["Protect", "Response"],
+      "Keyphrase": ["r106", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "A well-trained incident response team is critical for effectively managing and mitigating security incidents, reducing the potential impact on the organization."
+      }
+    },
+    {
+      "idCard": "b145",
+      "CardName": "Forensic Analysis Capability",
+      "ShortDescription": "Implement tools and processes for conducting forensic analysis to investigate and understand the root cause of incidents.",
+      "Cost": "4",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "Forensic analysis capabilities allow organizations to investigate security incidents thoroughly, identifying the root cause and helping prevent future occurrences."
+      }
+    },
+    {
+      "idCard": "b146",
+      "CardName": "Incident Simulation Exercises",
+      "ShortDescription": "Conduct regular incident response simulations and drills to test and improve the effectiveness of your response plan.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "Simulations and drills prepare the incident response team for real-world scenarios, helping to identify weaknesses in the response plan and improve overall preparedness."
+      }
+    },
+    {
+      "idCard": "b146",
+      "CardName": "Forensic Analysis Capability - CMD Log Pull",
+      "ShortDescription": "Write CMD line script to pull event logs.",
+      "Cost": "3",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r110", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "Forensic analysis capabilities allow organizations to investigate security incidents thoroughly, identifying the root cause and helping prevent future occurrences."
+      }
+    },
+    {
+      "idCard": "b147",
+      "CardName": "Network Access Control List (ACL) Inbound Traffic Rule",
+      "ShortDescription": "Implement ACLs to control and restrict inbound traffic to critical network resources based on IP addresses and protocols.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "Limit information system access to authorized users, processes, or devices, and control access to the network by filtering inbound traffic based on ACL rules."
+      }
+    },
+    {
+      "idCard": "b147",
+      "CardName": "Network Access Control List (ACL) Inbound Traffic Rule CMD",
+      "ShortDescription": "Write CMD line script to implement ACLs to control and restrict inbound traffic to critical network resources based on IP addresses and protocols.",
+      "Cost": "1",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
+        "Explanation": "Limit information system access to authorized users, processes, or devices, and control access to the network by filtering inbound traffic based on ACL rules."
+      }
+    },
+    {
+      "idCard": "b148",
+      "CardName": "Network Access Control List (ACL) Protocol Traffic Rule",
+      "ShortDescription": "Configure ACLs to block or allow specific network protocols (e.g., HTTP, FTP) based on security policies.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Implement network protection measures by filtering traffic based on protocols, ensuring that only secure and necessary protocols are allowed through the network."
+      }
+    },
+    {
+      "idCard": "b148",
+      "CardName": "Network Access Control List (ACL) Protocol Traffic Rule CMD",
+      "ShortDescription": "Write CMD line script to configure ACLs to block or allow specific network protocols (e.g., HTTP, FTP) based on security policies.",
+      "Cost": "1",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r106", "r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "Implement network protection measures by filtering traffic based on protocols, ensuring that only secure and necessary protocols are allowed through the network."
+      }
+    },
+    {
+      "idCard": "b149",
+      "CardName": "Compromised System Isolation CMD",
+      "ShortDescription": "Write CMD line script to disable the ethernet capability of a compromised device on the network.",
+      "Cost": "1",
+      "Phase": ["Protect", "Detect", "Response"],
+      "Keyphrase": ["r110", "r114", "r119"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Incident Response (IR)",
+        "Explanation": "This card allows you to immediately disconnect a system suspected of being compromised from the network, halting the spread of malware or unauthorized access, and preserving the integrity of the broader network."
+      }
+    },
+    {
+      "idCard": "b150",
+      "CardName": "Device Encryption CMD",
+      "ShortDescription": "Write CMD line script to encrypt sensitive files and directories via the command line to protect data from unauthorized access.",
+      "Cost": "1",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r110", "r114"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "This card enables you to use command-line tools to encrypt files and directories, ensuring that sensitive data is protected both at rest and during transfer, preventing unauthorized access."
+      }
+    },
+    {
+      "idCard": "r105",
+      "CardName": "Man-in-the-Middle (MitM) Attack",
+      "ShortDescription": "The attacker intercepts communications between two parties to steal or alter information.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "MitM attacks are used to eavesdrop on sensitive communications, steal data, or inject malicious content."
+      }
+    },
+    {
+      "idCard": "r106",
+      "CardName": "Remote Code Execution (RCE)",
+      "ShortDescription": "The attacker executes arbitrary code on a target system, potentially gaining full control.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "RCE vulnerabilities allow attackers to run malicious code on a system, leading to unauthorized access or system compromise."
+      }
+    },
+    {
+      "idCard": "r107",
+      "CardName": "Distributed Denial of Service (DDoS)",
+      "ShortDescription": "The attacker overwhelms a system or network with excessive traffic, causing service disruption.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "DDoS attacks aim to make a service unavailable by flooding it with traffic, preventing legitimate users from accessing it."
+      }
+    },
+    {
+      "idCard": "r109",
+      "CardName": "Privilege Escalation",
+      "ShortDescription": "The attacker gains higher-level permissions or access than they are authorized for.",
+      "Cost": "Medium",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Privilege escalation allows attackers to access restricted resources or perform unauthorized actions within a system."
+      }
+    },
+    {
+      "idCard": "r110",
+      "CardName": "Data Exfiltration",
+      "ShortDescription": "The attacker extracts sensitive data from a compromised system or network.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Data exfiltration involves stealing confidential or sensitive information, often for financial gain or espionage."
+      }
+    },
+    {
+      "idCard": "r111",
+      "CardName": "Zero-Day Exploits",
+      "ShortDescription": "The attacker exploits an unknown vulnerability in software or hardware before it is patched.",
+      "Cost": "Very High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Zero-day exploits target vulnerabilities that are not yet known to the vendor, making them difficult to defend against."
+      }
+    },
+    {
+      "idCard": "r112",
+      "CardName": "Phishing Attacks",
+      "ShortDescription": "The attacker tricks users into revealing sensitive information, such as passwords or credit card details.",
+      "Cost": "Low",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Phishing attacks use deceptive emails, websites, or messages to steal sensitive information from unsuspecting users."
+      }
+    },
+    {
+      "idCard": "r113",
+      "CardName": "Malware Injection",
+      "ShortDescription": "The attacker introduces malicious software into a system to disrupt operations or steal data.",
+      "Cost": "Medium",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Malware injection involves deploying harmful software, such as viruses, ransomware, or spyware, to compromise systems."
+      }
+    },
+    {
+      "idCard": "r114",
+      "CardName": "Ransomware",
+      "ShortDescription": "The attacker encrypts a victim's data and demands payment for its release.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Ransomware attacks lock users out of their systems or data until a ransom is paid, often causing significant disruption."
+      }
+    },
+    {
+      "idCard": "r115",
+      "CardName": "Credential Stuffing",
+      "ShortDescription": "The attacker uses stolen credentials to gain unauthorized access to user accounts.",
+      "Cost": "Low",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Credential stuffing exploits reused or weak passwords by automating login attempts with stolen credentials."
+      }
+    },
+    {
+      "idCard": "r117",
+      "CardName": "Known Vulnerability Exploits",
+      "ShortDescription": "The attacker exploits a documented vulnerability that has not been patched.",
+      "Cost": "Medium",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Attackers target known vulnerabilities in software or systems that have not been updated or patched."
+      }
+    },
+    {
+      "idCard": "r118",
+      "CardName": "Advanced Persistent Threats (APT)",
+      "ShortDescription": "The attacker conducts a prolonged and targeted cyberattack, often sponsored by nation-states.",
+      "Cost": "Very High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "APTs involve sophisticated, stealthy attacks aimed at stealing sensitive data or disrupting operations over an extended period."
+      }
+    },
+    {
+      "idCard": "r119",
+      "CardName": "Insider Threats",
+      "ShortDescription": "A trusted individual within the organization intentionally or unintentionally compromises security.",
+      "Cost": "Medium",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Insider threats can arise from malicious insiders or negligent employees, leading to data breaches or system compromise."
+      }
+    },
+    {
+      "idCard": "r120",
+      "CardName": "Supply Chain Attacks",
+      "ShortDescription": "The attacker compromises a third-party vendor or supplier to infiltrate the target organization.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Supply chain attacks exploit trust relationships with vendors to introduce vulnerabilities or malware into the target environment."
+      }
+    },
+    {
+      "idCard": "r122",
+      "CardName": "Legacy System Leverage",
+      "ShortDescription": "The attacker exploits outdated or unsupported systems to gain unauthorized access.",
+      "Cost": "Medium",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Legacy systems often lack modern security features, making them vulnerable to exploitation by attackers."
+      }
+    },
+    {
+      "idCard": "sb101",
+      "CardName": "Gilded Invitation",
+      "ShortDescription": "This whitelist says you're not allowed in",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "With Guilded's Invites, you can create and customize invites",
+        "Explanation": "With Guilded's Invites, you can create and customize invites that perfectly align with your server's vision. Whether you want to grow your ..."
+      }
+    },
+    {
+      "idCard": "sb102",
+      "CardName": "Lock it down",
+      "ShortDescription": "Your Password Does not meet the requirements",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "If you cannot safely evacuate the building or area",
+        "Explanation": "If you cannot safely evacuate the building or area, you must find a secure location to hide and begin lockdown procedures..."
+      }
+    },
+    {
+      "idCard": "sb103",
+      "CardName": "Port Authority",
+      "ShortDescription": "No one goes though my ports pal",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["sk101"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "Guidelines outlines best practices",
+        "Explanation": "Guidelines outlines best practices between Customs and Port Authorities from advanced, ..."
+      }
+    },
+    {
+      "idCard": "sb104",
+      "CardName": "MFA checkpiont",
+      "ShortDescription": "Licence and registration please",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "2FA (Factor Authentication) for RA (Remote Access)",
+        "Explanation": "2FA (Factor Authentication) for RA (Remote Access) users is supported in locally managed SMB appliances, either directly on the Quantum Spark appliance or with ..."
+      }
+    },
+    {
+      "idCard": "sr101",
+      "CardName": "Amazon EC2",
+      "ShortDescription": "Security Groups should only allow unrestricted incoming from athorized ports",
+      "Cost": "High",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "Amazon Elastic Compute Cloud (EC2) is a part of Amazon's cloud-computing platform",
+        "Explanation": "Amazon Elastic Compute Cloud (EC2) is a part of Amazon's cloud-computing platform, Amazon Web Services (AWS) that allows users to rent virtual computers on which to run their own computer applications. EC2 encourages scalable deployment of applications by providing ..."
+      }
+    }
+  ]
+}
