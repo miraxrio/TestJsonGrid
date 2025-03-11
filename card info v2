@@ -1,0 +1,836 @@
+{
+  "CardDetails": [
+    {
+      "idCard": "nb101",
+      "CardName": "Access Control",
+      "ShortDescription": "Managing and controlling who can access information,  systems, and functions within an organization.",
+      "Cost": "AC",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "nb102",
+      "CardName": "Asset Management",
+      "ShortDescription": "Deploy network defenses to monitor and block suspicious activities.",
+      "Cost": "AM",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r120", "r111"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": " DoD_CMMC_Domain - Incident Response (IR)",
+        "Explanation": "Network defenders monitor traffic to detect and respond to suspicious activities in real-time, preventing data breaches."
+      }
+    },
+    {
+      "idCard": "nb104",
+      "CardName": "Awareness & Training",
+      "ShortDescription": "Provides cybersecurity education and training to ensure that employees understand security risks and best practices.",
+      "Cost": "AT",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r103", "r108", "r110", "r109"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "nb105",
+      "CardName": "Configuration Management",
+      "ShortDescription": "Maintain secure configurations for systems, networks, and software, and track changes.",
+      "Cost": "CM",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r111", "r113", "r104", "120", "115"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "nb106",
+      "CardName": "Identification & Authentication",
+      "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
+      "Cost": "AC",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    },
+    {
+      "idCard": "b101",
+      "CardName": "----",
+      "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    }, 
+    {
+      "idCard": "b102",
+      "CardName": "Firewall Guardian",
+      "ShortDescription": "Configure a robust firewall to block unauthorized access and mitigate external threats",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r105", "r107", "r115", "r106", "r109", "r120"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    }, 
+    {
+      "idCard": "b103",
+      "CardName": "---",
+      "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
+      "Cost": "--",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    }, 
+    {
+      "idCard": "b104",
+      "CardName": "IDS Watchtower",
+      "ShortDescription": "Ensure proper identity verification and authentication mechanisms  for system access.",
+      "Cost": "4",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r107", "r105", "r115", "r111", "r104"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
+      }
+    }, 
+    {
+      "idCard": "b105",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b106",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b107",
+      "CardName": "User Access Control List (ACL) Enforcer",
+      "ShortDescription": "Implement ACLs to restrict access based on user roles and responsibilities.",
+      "Cost": "2",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "-ACLs limit access to information systems and data, ensuring that only authorized users can access specific resources."
+      }
+    }, 
+    {
+      "idCard": "b108",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b109",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b110",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b111",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b112",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b113",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b114",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b115",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r109", "r106", "r117", "r110", "r108"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b116",
+      "CardName": "DDoS Mitigator",
+      "ShortDescription": "Deploy defenses against Distributed Denial of Service (DDoS) attacks to maintain availability.",
+      "Cost": "3",
+      "Phase": ["Protect"],
+      "Keyphrase": ["r107"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: System and Communications Protection (SC)",
+        "Explanation": "DDoS mitigation strategies protect against overwhelming traffic attacks that could disrupt service availability."
+      }
+    },
+    {
+      "idCard": "b117",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": [""],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b118",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b119",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b120",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b121",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b122",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b123",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b124",
+      "CardName": "Vulnerability Intelligence",
+      "ShortDescription": "Continuously monitor for vulnerabilities within your systems and prioritize remediation efforts based on risk.",
+      "Cost": "2",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r122", "r111"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
+        "Explanation": "Vulnerability intelligence involves identifying and assessing vulnerabilities within your systems, enabling timely remediation and reducing the risk of exploitation."
+      }
+    },
+    {
+      "idCard": "b125",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b126",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b127",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "b128",
+      "CardName": "Vulnerability Scanner",
+      "ShortDescription": "Utilize a vulnerability scanner to identify weaknesses in your systems and prioritize remediation efforts.",
+      "Cost": "1",
+      "Phase": ["Protect", "Detect"],
+      "Keyphrase": ["r113", "r117", "r110"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD CMMC Domain: Risk Management (RM)",
+        "Explanation": "Vulnerability scanners help detect potential security flaws in systems, enabling organizations to address vulnerabilities before they can be exploited by attackers."
+      }
+    },
+    {
+      "idCard": "b129",
+      "CardName": "---",
+      "ShortDescription": "---",
+      "Cost": "-",
+      "Phase": ["Protect"],
+      "Keyphrase": ["--"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "D---",
+        "Explanation": "---"
+      }
+    },
+    {
+      "idCard": "r101",
+      "CardName": "Port Scan",
+      "ShortDescription": "The attacker is looking for open ports that may be vulnerable to exploitation.",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "FPort scanning identifies open ports that may be vulnerable to exploitation. Tools like Nmap are commonly used for this purpose."
+      }
+    },
+    {
+      "idCard": "r102",
+      "CardName": "SQL Injection",
+      "ShortDescription": "The attacker injects malicious SQL queries to exploit vulnerabilities in web applications.",
+      "Cost": "Critical",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "DoD_CMMC_Domain - Access Control (AC)",
+        "Explanation": "SQL Injection attacks allow attackers to manipulate databases, potentially gaining unauthorized access to sensitive data."
+      }
+    },
+    {
+      "idCard": "r103",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r104",
+      "CardName": "Ransomware Deployment",
+      "ShortDescription": "The attacker encrypts critical files and demands a ransom for their release.",
+      "Cost": "Critical",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Ransomware attacks can cripple an organization by locking access to essential data until a ransom is paid."
+      }
+    },
+    {
+      "idCard": "r105",
+      "CardName": "Man-in-the-Middle (MitM) Attack",
+      "ShortDescription": "The attacker intercepts communications between two parties to steal or alter information.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "MitM attacks are used to eavesdrop on sensitive communications, steal data, or inject malicious content."
+      }
+    },
+    {
+      "idCard": "r106",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r107",
+      "CardName": "Distributed Denial of Service (DDoS) Attack",
+      "ShortDescription": "The attacker overwhelms your network with traffic, rendering services unavailable.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "DDoS attacks disrupt service availability by flooding the target with an overwhelming volume of traffic."
+      }
+    },
+    {
+      "idCard": "r108",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r109",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r110",
+      "CardName": "Insider Threat",
+      "ShortDescription": "A malicious insider abuses their access privileges to steal or sabotage data.",
+      "Cost": "Critical",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Insider threats are challenging to detect and can cause significant damage due to the insider's trusted access."
+      }
+    },
+    {
+      "idCard": "r111",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r112",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r113",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r114",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r115",
+      "CardName": "Remote Code Execution (RCE)",
+      "ShortDescription": "The attacker executes arbitrary code on a remote machine, potentially taking full control.",
+      "Cost": "Critical",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "RCE vulnerabilities allow attackers to run malicious code on a target system, often leading to complete system compromise."
+      }
+    },
+    {
+      "idCard": "r116",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r117",
+      "CardName": "Privilege Escalation",
+      "ShortDescription": "The attacker exploits a vulnerability to gain higher access rights than intended.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Privilege escalation attacks can turn a low-level compromise into full administrative access, increasing the attack's impact."
+      }
+    },
+    {
+      "idCard": "r118",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r119",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r120",
+      "CardName": "Supply Chain Attack",
+      "ShortDescription": "The attacker compromises a third-party vendor to infiltrate the target’s network.",
+      "Cost": "High",
+      "Phase": ["Attempt"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "Supply chain attacks exploit trusted relationships between organizations and their suppliers, allowing attackers to bypass traditional defenses."
+      }
+    },
+    {
+      "idCard": "r121",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r122",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r123",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r124",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "r125",
+      "CardName": "-",
+      "ShortDescription": "-",
+      "Cost": "Low",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "-",
+        "Explanation": "-"
+      }
+    },
+    {
+      "idCard": "sb101",
+      "CardName": "Gilded Invitation",
+      "ShortDescription": "This whitelist says you're not allowed in",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "With Guilded's Invites, you can create and customize invites",
+        "Explanation": "With Guilded's Invites, you can create and customize invites that perfectly align with your server's vision. Whether you want to grow your ..."
+      }
+    },
+    {
+      "idCard": "sb102",
+      "CardName": "Lock it down",
+      "ShortDescription": "Your Password Does not meet the requirements",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "If you cannot safely evacuate the building or area",
+        "Explanation": "If you cannot safely evacuate the building or area, you must find a secure location to hide and begin lockdown procedures..."
+      }
+    },
+    {
+      "idCard": "sb103",
+      "CardName": "Port Authority",
+      "ShortDescription": "No one goes though my ports pal",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["sk101"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "Guidelines outlines best practices",
+        "Explanation": "Guidelines outlines best practices between Customs and Port Authorities from advanced, ..."
+      }
+    },
+    {
+      "idCard": "sb104",
+      "CardName": "MFA checkpiont",
+      "ShortDescription": "Licence and registration please",
+      "Cost": "Rem",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "2FA (Factor Authentication) for RA (Remote Access)",
+        "Explanation": "2FA (Factor Authentication) for RA (Remote Access) users is supported in locally managed SMB appliances, either directly on the Quantum Spark appliance or with ..."
+      }
+    },
+    {
+      "idCard": "sr101",
+      "CardName": "Amazon EC2",
+      "ShortDescription": "Security Groups should only allow unrestricted incoming from athorized ports",
+      "Cost": "High",
+      "Phase": ["Recon"],
+      "Keyphrase": ["-"],
+      "imageURL": "---",
+      "Details": {
+        "Mitigation": "Amazon Elastic Compute Cloud (EC2) is a part of Amazon's cloud-computing platform",
+        "Explanation": "Amazon Elastic Compute Cloud (EC2) is a part of Amazon's cloud-computing platform, Amazon Web Services (AWS) that allows users to rent virtual computers on which to run their own computer applications. EC2 encourages scalable deployment of applications by providing ..."
+      }
+    }
+  ]
+}
