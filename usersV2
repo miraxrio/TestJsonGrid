@@ -12,7 +12,7 @@
       "missionClear": ["Bolivia", "Russia", "Japan", "Canada"],
       "friendList": ["001", "006", "007"],
       "badgeOwned": ["bd01", "bd03", "bd04", "bd05"],
-      "avatarImg": "https://models.readyplayer.me/6669860f825efeb4c8bba785.png",
+      "avatarImg": "https://models.readyplayer.me/65f0b60d35076e173ec96272.png",
       "avatarLink": "https://models.readyplayer.me/6669860f825efeb4c8bba785.glb"
     },
     {
@@ -27,8 +27,8 @@
       "missionClear": ["India", "Mexico", "Spain", "Germany"],
       "friendList": ["000", "002", "006", "007", "008"],
       "badgeOwned": ["bd01", "bd02", "bd04", "bd05"],
-      "avatarImg": "https://models.readyplayer.me/65f1d3752cebbb1755907a89.png?&uat=2025-02-05T16:27:26.712Z",
-      "avatarLink": "https://models.readyplayer.me/67453b6a6d5052803b311a8b.glb"
+      "avatarImg": "https://models.readyplayer.me/65f1d3752cebbb1755907a89.png",
+      "avatarLink": "https://models.readyplayer.me/6669860f825efeb4c8bba783.glb"
     },
     {
       "userId": "002",
@@ -42,7 +42,7 @@
       "missionClear": [],
       "friendList": ["001", "005"],
       "badgeOwned": [],
-      "avatarImg": "https://models.readyplayer.me/67216299cce833099caeac57.png?&uat=2025-02-05T16:34:28.950Z",
+      "avatarImg": "https://models.readyplayer.me/67216299cce833099caeac57.png",
       "avatarLink": "https://models.readyplayer.me/67216299cce833099caeac57.glb"
     },
     {
@@ -57,7 +57,7 @@
       "missionClear": [],
       "friendList": ["001"],
       "badgeOwned": [],
-      "avatarImg": "https://models.readyplayer.me/67216299cce833099caeac57.png?&uat=2025-02-05T16:34:28.950Z",
+      "avatarImg": "https://models.readyplayer.me/67216299cce833099caeac57.png",
       "avatarLink": "https://models.readyplayer.me/67216345b14051a6c2827e44.glb"
     },
     {
@@ -72,7 +72,7 @@
       "missionClear": [],
       "friendList": ["001"],
       "badgeOwned": [],
-      "avatarImg": "https://models.readyplayer.me/67216299cce833099caeac57.png?&uat=2025-02-05T16:34:28.950Z",
+      "avatarImg": "https://models.readyplayer.me/67216299cce833099caeac57.png",
       "avatarLink": "https://models.readyplayer.me/672163e0273d54c60bc101f1.glb"
     },
     {
