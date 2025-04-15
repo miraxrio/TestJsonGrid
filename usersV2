@@ -13,7 +13,7 @@
       "friendList": ["001", "006", "007"],
       "badgeOwned": ["bd01", "bd03", "bd04", "bd05"],
       "avatarImg": "https://models.readyplayer.me/65f0b60d35076e173ec96272.png",
-      "avatarLink": "https://models.readyplayer.me/6669860f825efeb4c8bba785.glb"
+      "avatarLink": "https://models.readyplayer.me/65f0b60d35076e173ec96272.glb"
     },
     {
       "userId": "001",
@@ -28,7 +28,7 @@
       "friendList": ["000", "002", "006", "007", "008"],
       "badgeOwned": ["bd01", "bd02", "bd04", "bd05"],
       "avatarImg": "https://models.readyplayer.me/65f1d3752cebbb1755907a89.png",
-      "avatarLink": "https://models.readyplayer.me/6669860f825efeb4c8bba783.glb"
+      "avatarLink": "https://models.readyplayer.me/65f1d3752cebbb1755907a89.glb"
     },
     {
       "userId": "002",
