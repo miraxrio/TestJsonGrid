@@ -92,32 +92,6 @@
       }
     },
     {
-      "idCard": "b102",
-      "CardName": "Firewall Guardian Rule - Port Block",
-      "ShortDescription": "Configure a firewall rule for specific ports to block.",
-      "Cost": "2",
-      "Phase": ["Protect", "Detect"],
-      "Keyphrase": ["r106", "r107", "r110", "r112", "r115", "r120"],
-      "imageURL": "---",
-      "Details": {
-        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
-        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
-      }
-    },
-    {
-      "idCard": "b102",
-      "CardName": "Firewall Guardian Rule - Protocol Rule",
-      "ShortDescription": "Configure a firewall rule for specific protocols to block.",
-      "Cost": "2",
-      "Phase": ["Protect", "Detect"],
-      "Keyphrase": ["r106", "r107", "r110", "r112", "r115", "r120"],
-      "imageURL": "---",
-      "Details": {
-        "Mitigation": "DoD CMMC Domain: Access Control (AC)",
-        "Explanation": "Firewalls enforce access control policies by filtering incoming and outgoing network traffic, protecting critical assets from unauthorized access."
-      }
-    },
-    {
       "idCard": "b103",
       "CardName": "Multi-Factor Authentication (MFA)",
       "ShortDescription": "Require multiple forms of authentication to secure user access to critical systems.",
