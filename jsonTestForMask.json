@@ -1,1 +1,54 @@
-
+{
+  "questions": [
+    {
+      "id": "q1",
+      "questionTypes": "Standard,TrueFalse",
+      "week": "1",
+      "missionTitle": "Password Safety",
+      "questionText": "Who should you tell your password to?",
+      "myraHint": "Think about who you can trust the most!",
+      "answers": ["Parents", "Friends", "Strangers", "Everyone"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q2",
+      "questionTypes": "Fill,Scramble",
+      "week": "1",
+      "missionTitle": "Password Safety",
+      "questionText": "Who should you tell your password to?",
+      "myraHint": "Looks like this data was corrupted, can you fill in the missing piece?",
+      "answers": ["parent"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q3",
+      "questionTypes": "Scramble",
+      "week": "1",
+      "missionTitle": "Password Safety",
+      "questionText": "Who should you tell your password to?",
+      "myraHint": "Oh no! The data has been scrambled - can you decipher the answer?",
+      "answers": ["PARENT"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q4",
+      "questionTypes": "Standard",
+      "week": "2",
+      "missionTitle": "Online Privacy",
+      "questionText": "What information is safe to share online?",
+      "myraHint": "Be careful about personal details!",
+      "answers": ["Your full name and address", "Your favorite color", "Your social security number", "Your current location"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q5",
+      "questionTypes": "TrueFalse",
+      "week": "2",
+      "missionTitle": "Online Privacy",
+      "questionText": "It's okay to accept friend requests from people you don't know.",
+      "myraHint": "Think about stranger danger!",
+      "answers": ["True", "False"],
+      "correctAnswerIndex": 1
+    }
+  ]
+}
