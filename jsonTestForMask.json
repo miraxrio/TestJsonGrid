@@ -6,7 +6,7 @@
       {
         "_id": "68f14b643bfee1cb287d537e",
         "question_id": "FB-005",
-        "type": "Fill in the Blank",
+        "type": "Fill",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "Don’t post your exact home ________ online.",
@@ -19,7 +19,7 @@
       {
         "_id": "68f14b643bfee1cb287d537c",
         "question_id": "FB-003",
-        "type": "Fill in the Blank",
+        "type": "Fill",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "Adding a code texted to you is called ________.",
@@ -32,7 +32,7 @@
       {
         "_id": "68f14b643bfee1cb287d537b",
         "question_id": "FB-002",
-        "type": "Fill in the Blank",
+        "type": "Fill",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "A tool that keeps and creates strong passwords is a ________ manager.",
@@ -45,7 +45,7 @@
       {
         "_id": "68f14b643bfee1cb287d537d",
         "question_id": "FB-004",
-        "type": "Fill in the Blank",
+        "type": "Fill",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "On public Wi‑Fi, use a ________ to encrypt traffic.",
@@ -58,7 +58,7 @@
       {
         "_id": "68f14b643bfee1cb287d5379",
         "question_id": "MT-005",
-        "type": "Matching",
+        "type": "Connect",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "Match the setting to the effect.",
@@ -75,7 +75,7 @@
       {
         "_id": "68f14b643bfee1cb287d537a",
         "question_id": "FB-001",
-        "type": "Fill in the Blank",
+        "type": "Fill",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "What is the act of trying to get your information called? ________.",
@@ -88,7 +88,7 @@
       {
         "_id": "68f14b643bfee1cb287d5378",
         "question_id": "MT-004",
-        "type": "Matching",
+        "type": "Connect",
         "week": 20,
         "mission": "Knowledge Check",
         "question": "Match the action to the result.",
