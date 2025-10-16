@@ -4,47 +4,164 @@
   "data": {
     "questions": [
       {
-        "_id": "68efca7b163287cda4c83a8d",
-        "question_id": "Q000002",
-        "type": "Standard",
-        "week": 0,
-        "mission": "Welcome to MASK HQ & Myra",
-        "question": "What does digital citizenship mean?",
-        "options": [
-          "Following only your school Wi-Fi rules",
-          "Using the internet responsibly and respectfully",
-          "Posting as much personal info as possible",
-          "Playing online games every day"
-        ],
-        "correct_answer": "Using the internet responsibly and respectfully",
-        "createdAt": "2025-10-15T16:23:23.698Z",
-        "updatedAt": "2025-10-15T16:23:23.698Z",
+        "_id": "68f14b643bfee1cb287d537e",
+        "question_id": "FB-005",
+        "type": "Fill in the Blank",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "Don’t post your exact home ________ online.",
+        "options": [],
+        "correct_answer": "address",
+        "createdAt": "2025-10-16T19:45:40.880Z",
+        "updatedAt": "2025-10-16T19:45:40.880Z",
         "__v": 0
       },
       {
-        "_id": "68ee9460d8d73321dedc29e8",
-        "question_id": "Q000001",
-        "type": "Standard",
-        "week": 1,
-        "mission": "Welcome to MASK HQ & Myra",
-        "question": "What is Myra's main role in MASK?",
+        "_id": "68f14b643bfee1cb287d537c",
+        "question_id": "FB-003",
+        "type": "Fill in the Blank",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "Adding a code texted to you is called ________.",
+        "options": [],
+        "correct_answer": "2FA",
+        "createdAt": "2025-10-16T19:45:40.879Z",
+        "updatedAt": "2025-10-16T19:45:40.879Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d537b",
+        "question_id": "FB-002",
+        "type": "Fill in the Blank",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "A tool that keeps and creates strong passwords is a ________ manager.",
+        "options": [],
+        "correct_answer": "password",
+        "createdAt": "2025-10-16T19:45:40.879Z",
+        "updatedAt": "2025-10-16T19:45:40.879Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d537d",
+        "question_id": "FB-004",
+        "type": "Fill in the Blank",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "On public Wi‑Fi, use a ________ to encrypt traffic.",
+        "options": [],
+        "correct_answer": "VPN",
+        "createdAt": "2025-10-16T19:45:40.879Z",
+        "updatedAt": "2025-10-16T19:45:40.879Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d5379",
+        "question_id": "MT-005",
+        "type": "Matching",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "Match the setting to the effect.",
         "options": [
-          "To trick players into sharing passwords",
-          "To guide students in staying safe online",
-          "To challenge students with scams",
-          "To teach only math and science"
+          "Private Account → Fewer viewers",
+          "Public Account → Anyone can see",
+          "Friends Only → Approved followers"
         ],
-        "correct_answer": "To guide students in staying safe online",
-        "createdAt": "2025-10-14T18:20:16.351Z",
-        "updatedAt": "2025-10-14T18:20:16.351Z",
+        "correct_answer": "Private Account → Fewer viewers; Public Account → Anyone can see; Friends Only → Approved followers",
+        "createdAt": "2025-10-16T19:45:40.879Z",
+        "updatedAt": "2025-10-16T19:45:40.879Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d537a",
+        "question_id": "FB-001",
+        "type": "Fill in the Blank",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "What is the act of trying to get your information called? ________.",
+        "options": [],
+        "correct_answer": "Phishing",
+        "createdAt": "2025-10-16T19:45:40.879Z",
+        "updatedAt": "2025-10-16T19:45:40.879Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d5378",
+        "question_id": "MT-004",
+        "type": "Matching",
+        "week": 20,
+        "mission": "Knowledge Check",
+        "question": "Match the action to the result.",
+        "options": [
+          "Block → No more messages",
+          "Report → Notifies platform",
+          "Screenshot → Save proof"
+        ],
+        "correct_answer": "Block → No more messages; Report → Notifies platform; Screenshot → Save proof",
+        "createdAt": "2025-10-16T19:45:40.879Z",
+        "updatedAt": "2025-10-16T19:45:40.879Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d5367",
+        "question_id": "Q000097",
+        "type": "Standard",
+        "week": 10,
+        "mission": "Boss Battle 2: Troll King Attack",
+        "question": "Q97: If fake accounts are made about you, what should you do?",
+        "options": [
+          "Report impersonation and tell trusted adults",
+          "Make a fake account back",
+          "Share the fake account link",
+          "Ignore it forever"
+        ],
+        "correct_answer": "A",
+        "createdAt": "2025-10-16T19:45:40.878Z",
+        "updatedAt": "2025-10-16T19:45:40.878Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d5368",
+        "question_id": "Q000098",
+        "type": "Standard",
+        "week": 10,
+        "mission": "Boss Battle 2: Troll King Attack",
+        "question": "Q98: When is contacting law enforcement reasonable?",
+        "options": [
+          "If there are credible threats, extortion, or safety risks",
+          "For every mean comment",
+          "When your post gets zero likes",
+          "When homework is hard"
+        ],
+        "correct_answer": "A",
+        "createdAt": "2025-10-16T19:45:40.878Z",
+        "updatedAt": "2025-10-16T19:45:40.878Z",
+        "__v": 0
+      },
+      {
+        "_id": "68f14b643bfee1cb287d5366",
+        "question_id": "Q000096",
+        "type": "Standard",
+        "week": 10,
+        "mission": "Boss Battle 2: Troll King Attack",
+        "question": "Q96: Why avoid 'fighting back' with insults?",
+        "options": [
+          "It can escalate and may get you in trouble too",
+          "It always fixes the situation",
+          "Platforms reward it",
+          "Adults won't see it"
+        ],
+        "correct_answer": "A",
+        "createdAt": "2025-10-16T19:45:40.878Z",
+        "updatedAt": "2025-10-16T19:45:40.878Z",
         "__v": 0
       }
     ],
     "pagination": {
-      "total": 2,
+      "total": 120,
       "page": 1,
       "limit": 10,
-      "totalPages": 1
+      "totalPages": 12
     }
   }
 }
