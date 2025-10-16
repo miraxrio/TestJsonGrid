@@ -1,54 +1,50 @@
 {
-  "questions": [
-    {
-      "id": "q1",
-      "questionTypes": "TrueFalse",
-      "week": "1",
-      "missionTitle": "Password Safety",
-      "questionText": "Who should you tell your password to?",
-      "myraHint": "Think about who you can trust the most!",
-      "answers": ["Parents", "Friends", "Strangers", "Everyone"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "id": "q2",
-      "questionTypes": "Fill",
-      "week": "1",
-      "missionTitle": "Password Safety",
-      "questionText": "Who should you tell your password to?",
-      "myraHint": "Looks like this data was corrupted, can you fill in the missing piece?",
-      "answers": ["parent"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "id": "q3",
-      "questionTypes": "Scramble",
-      "week": "1",
-      "missionTitle": "Password Safety",
-      "questionText": "Who should you tell your password to?",
-      "myraHint": "Oh no! The data has been scrambled - can you decipher the answer?",
-      "answers": ["PARENT"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "id": "q4",
-      "questionTypes": "Standard",
-      "week": "2",
-      "missionTitle": "Online Privacy",
-      "questionText": "What information is safe to share online?",
-      "myraHint": "Be careful about personal details!",
-      "answers": ["Your full name and address", "Your favorite color", "Your social security number", "Your current location"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "id": "q5",
-      "questionTypes": "TrueFalse",
-      "week": "2",
-      "missionTitle": "Online Privacy",
-      "questionText": "It's okay to accept friend requests from people you don't know.",
-      "myraHint": "Think about stranger danger!",
-      "answers": ["True", "False"],
-      "correctAnswerIndex": 1
+  "status": true,
+  "message": "Questions fetched successfully",
+  "data": {
+    "questions": [
+      {
+        "_id": "68efca7b163287cda4c83a8d",
+        "question_id": "Q000002",
+        "type": "Standard",
+        "week": 0,
+        "mission": "Welcome to MASK HQ & Myra",
+        "question": "What does digital citizenship mean?",
+        "options": [
+          "Following only your school Wi-Fi rules",
+          "Using the internet responsibly and respectfully",
+          "Posting as much personal info as possible",
+          "Playing online games every day"
+        ],
+        "correct_answer": "Using the internet responsibly and respectfully",
+        "createdAt": "2025-10-15T16:23:23.698Z",
+        "updatedAt": "2025-10-15T16:23:23.698Z",
+        "__v": 0
+      },
+      {
+        "_id": "68ee9460d8d73321dedc29e8",
+        "question_id": "Q000001",
+        "type": "Standard",
+        "week": 1,
+        "mission": "Welcome to MASK HQ & Myra",
+        "question": "What is Myra's main role in MASK?",
+        "options": [
+          "To trick players into sharing passwords",
+          "To guide students in staying safe online",
+          "To challenge students with scams",
+          "To teach only math and science"
+        ],
+        "correct_answer": "To guide students in staying safe online",
+        "createdAt": "2025-10-14T18:20:16.351Z",
+        "updatedAt": "2025-10-14T18:20:16.351Z",
+        "__v": 0
+      }
+    ],
+    "pagination": {
+      "total": 2,
+      "page": 1,
+      "limit": 10,
+      "totalPages": 1
     }
-  ]
+  }
 }
