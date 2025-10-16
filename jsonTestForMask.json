@@ -4,43 +4,6 @@
   "data": {
     "questions": [
       {
-        "_id": "68efca7b163287cda4c83a8d",
-        "question_id": "Q000002",
-        "type": "Standard",
-        "week": 0,
-        "mission": "Welcome to MASK HQ & Myra",
-        "question": "What does digital citizenship mean?",
-        "options": [
-          "Following only your school Wi-Fi rules",
-          "Using the internet responsibly and respectfully",
-          "Posting as much personal info as possible",
-          "Playing online games every day"
-        ],
-        "correct_answer": "Using the internet responsibly and respectfully",
-        "createdAt": "2025-10-15T16:23:23.698Z",
-        "updatedAt": "2025-10-15T16:23:23.698Z",
-        "__v": 0
-      },
-      {
-        "_id": "68ee9460d8d73321dedc29e8",
-        "question_id": "Q000001",
-        "type": "Standard",
-        "week": 1,
-        "mission": "Welcome to MASK HQ & Myra",
-        "question": "What is Myra's main role in MASK?",
-        "options": [
-          "To trick players into sharing passwords",
-          "To guide students in staying safe online",
-          "To challenge students with scams",
-          "To teach only math and science"
-        ],
-        "correct_answer": "To guide students in staying safe online",
-        "createdAt": "2025-10-14T18:20:16.351Z",
-        "updatedAt": "2025-10-14T18:20:16.351Z",
-        "__v": 0
-      }
-    ],
-    {
         "_id": "68f14b643bfee1cb287d537e",
         "question_id": "FB-005",
         "type": "Fill",
